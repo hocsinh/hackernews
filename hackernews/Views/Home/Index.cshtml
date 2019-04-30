@@ -1,0 +1,39 @@
+﻿@model IEnumerable<HackerNewsModel>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">
+                <form asp-controller="Home" asp-action="Index">
+                    <p>
+                        <input type="search" name="SearchString" value='@ViewData["Filter"]' placeholder="Author or Title" size="80" />
+                        <input type="submit" value="Search" />
+                    </p>
+                </form>
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @if (Model.Any())
+        {
+            @foreach (var story in Model)
+            {
+                @if (story != null)
+                {
+                    <tr>
+                        <td><a href="@story.Url"><b>@story.Title</b></a> by @story.By</td>
+                    </tr>
+                }
+            }
+        }
+        else
+        {
+            <tr>No matches found</tr>
+        }
+    </tbody>
+</table>

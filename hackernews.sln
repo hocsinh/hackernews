@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28809.33
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackernews", "hackernews\hackernews.csproj", "{ECEBACE4-4CDC-43ED-AC31-71CEFDBA1D30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTests", "XUnitTests\XUnitTests.csproj", "{539BF034-D9EC-4ED7-A571-B7A1B5E24148}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECEBACE4-4CDC-43ED-AC31-71CEFDBA1D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECEBACE4-4CDC-43ED-AC31-71CEFDBA1D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECEBACE4-4CDC-43ED-AC31-71CEFDBA1D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECEBACE4-4CDC-43ED-AC31-71CEFDBA1D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539BF034-D9EC-4ED7-A571-B7A1B5E24148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539BF034-D9EC-4ED7-A571-B7A1B5E24148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539BF034-D9EC-4ED7-A571-B7A1B5E24148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539BF034-D9EC-4ED7-A571-B7A1B5E24148}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0575B90-20BC-466D-B0C5-584B8A586BB4}
+	EndGlobalSection
+EndGlobal
