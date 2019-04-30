@@ -58,8 +58,8 @@ namespace hackernews.Services
                 var response = await client.GetAsync(string.Format(Constants.ITEM_URL, newsId));
                 if (response.IsSuccessStatusCode)
                 {
-                    var storyResponse = response.Content.ReadAsStringAsync().Result;
-                    newsModel = JsonConvert.DeserializeObject<HackerNewsModel>(storyResponse);
+                    var newsResponse = response.Content.ReadAsStringAsync().Result;
+                    newsModel = JsonConvert.DeserializeObject<HackerNewsModel>(newsResponse);
                 }
 
                 return newsModel;
