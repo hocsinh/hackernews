@@ -1,0 +1,2 @@
+﻿1. This project is built using Visual Studio 2019 preview; however, it should work with Visual Studio 2017 with .net core 2.2 installed.
+2. This project is created as asp.net mvc core 2.2
